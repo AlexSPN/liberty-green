@@ -575,7 +575,7 @@
 
 
 /turf/open/chasm/Entered(atom/movable/AM)
-	if(istype(AM, /obj/singularity) || istype(AM, /obj/item/projectile))
+	if(istype(AM, /obj/singularity) || istype(AM, /obj/item/projectile) || istype(AM, /obj/pod))
 		return
 	if(istype(AM, /obj/effect/portal))
 		// Portals aren't affected by gravity. Probably.

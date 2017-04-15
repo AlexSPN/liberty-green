@@ -115,8 +115,8 @@ var/list/icons_to_ignore_at_floor_init = list("damaged1","damaged2","damaged3","
 			if(do_after(user, crawl_time*2, 1, null))
 				step(user, togo)
 			return
-		else
-			..(user)
+	else
+		..(user)
 
 /turf/open/floor/attack_paw(mob/user)
 	return src.attack_hand(user)

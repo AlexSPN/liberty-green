@@ -1,4 +1,4 @@
-/client/proc/checkAccount()
+/client/verb/checkAccount()
 	set name = "Check multiaccounts"
 	set category = "Admin"
 
@@ -36,7 +36,7 @@
 
 	user << browse(output, "window=accaunts;size=600x400")
 
-/client/proc/checkAllAccounts()
+/client/verb/checkAllAccounts()
 	set name = "Check multiaccounts (All)"
 	set category = "Admin"
 

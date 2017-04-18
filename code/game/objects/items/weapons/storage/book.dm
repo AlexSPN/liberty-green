@@ -117,7 +117,7 @@ var/global/list/bibleitemstates =	list("bible", "koran", "scrapbook", "bible", "
 		var/mob/living/carbon/human/H = M
 		var/heal_amt = 10
 		if(M.mind && (M.mind.assigned_role == "Chaplain"))
-			heal_amt = 2.5
+			heal_amt = 7
 		for(var/obj/item/bodypart/affecting in H.bodyparts)
 			if(affecting.status == ORGAN_ORGANIC) //No Bible can heal a robotic arm!
 				if(affecting.heal_damage(heal_amt, heal_amt, 0))
@@ -162,7 +162,8 @@ var/global/list/bibleitemstates =	list("bible", "koran", "scrapbook", "bible", "
 						return
 		else
 			if(ishuman(M) && !istype(M:head, /obj/item/clothing/head/helmet))
-				M.adjustBrainLoss(10)
+				if(!chaplain)
+					M.adjustBrainLoss(10)
 				M.text2tab("<span class='danger'>You feel dumber.</span>")
 
 			M.visible_message("<span class='danger'>[user] beats [M] over the head with [src]!</span>", \

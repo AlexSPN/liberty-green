@@ -140,52 +140,52 @@ macro "default"
 
 macro "hotkeys"
 	elem 
-		name = "TAB"
+		name = "Tab"
 		command = ".winset \"mainwindow.macro=default input.focus=true input.background-color=#d3b5b5\""
 	elem 
-		name = "CENTER+REP"
+		name = "Center+REP"
 		command = ".center"
 	elem 
-		name = "NORTHEAST"
+		name = "Northeast"
 		command = ".northeast"
 	elem 
-		name = "SOUTHEAST"
+		name = "Southeast"
 		command = ".southeast"
 	elem 
-		name = "SOUTHWEST"
+		name = "Southwest"
 		command = ".southwest"
 	elem 
-		name = "NORTHWEST"
+		name = "Northwest"
 		command = ".northwest"
 	elem 
-		name = "CTRL+WEST"
+		name = "CTRL+West"
 		command = "westface"
 	elem 
-		name = "WEST+REP"
+		name = "West+REP"
 		command = ".west"
 	elem 
-		name = "CTRL+NORTH"
+		name = "CTRL+North"
 		command = "northface"
 	elem 
-		name = "NORTH+REP"
+		name = "North+REP"
 		command = ".north"
 	elem 
-		name = "CTRL+EAST"
+		name = "CTRL+East"
 		command = "eastface"
 	elem 
-		name = "EAST+REP"
+		name = "East+REP"
 		command = ".east"
 	elem 
-		name = "CTRL+SOUTH"
+		name = "CTRL+South"
 		command = "southface"
 	elem 
-		name = "SOUTH+REP"
+		name = "South+REP"
 		command = ".south"
 	elem 
-		name = "INSERT"
+		name = "Insert"
 		command = "a-intent right"
 	elem 
-		name = "DELETE"
+		name = "Delete"
 		command = "delete-key-pressed"
 	elem 
 		name = "1"
@@ -212,94 +212,13 @@ macro "hotkeys"
 		name = "CTRL+4"
 		command = "a-intent harm"
 	elem 
-		name = "A+REP"
-		command = ".west"
-	elem 
-		name = "CTRL+A+REP"
-		command = ".west"
-	elem 
-		name = "B"
-		command = "resist"
-	elem 
-		name = "CTRL+B"
-		command = "resist"
-	elem 
-		name = "D+REP"
-		command = ".east"
-	elem 
-		name = "CTRL+D+REP"
-		command = ".east"
-	elem 
-		name = "E"
-		command = "quick-equip"
-	elem 
-		name = "CTRL+E"
-		command = "quick-equip"
-	elem 
-		name = "F"
-		command = "a-intent left"
-	elem 
-		name = "CTRL+F"
-		command = "a-intent left"
-	elem 
-		name = "G"
-		command = "a-intent right"
-	elem 
-		name = "CTRL+G"
-		command = "a-intent right"
-	elem 
-		name = "M"
-		command = "me"
-	elem 
-		name = "O"
-		command = "ooc"
-	elem 
-		name = "CTRL+O"
-		command = "ooc"
-	elem 
-		name = "Q"
-		command = ".northwest"
-	elem 
-		name = "CTRL+Q"
-		command = ".northwest"
-	elem 
-		name = "R"
-		command = ".southwest"
-	elem 
-		name = "CTRL+R"
-		command = ".southwest"
-	elem "s_key"
-		name = "S+REP"
-		command = ".south"
-	elem 
-		name = "CTRL+S+REP"
-		command = ".south"
-	elem 
 		name = "T"
 		command = "say"
-	elem "w_key"
-		name = "W+REP"
-		command = ".north"
-	elem 
-		name = "CTRL+W+REP"
-		command = ".north"
-	elem 
-		name = "X"
-		command = ".northeast"
-	elem 
-		name = "CTRL+X"
-		command = ".northeast"
 	elem 
 		name = "Y"
 		command = "me"
 	elem 
-		name = "CTRL+Y"
-		command = "me"
-	elem 
 		name = "Z"
-		command = "Activate-Held-Object"
-	elem 
-		name = "CTRL+Z"
 		command = "Activate-Held-Object"
 	elem 
 		name = "F1"
@@ -308,11 +227,20 @@ macro "hotkeys"
 		name = "CTRL+SHIFT+F1+REP"
 		command = ".options"
 	elem 
+		name = "F2"
+		command = "OOC"
+	elem 
 		name = "F2+REP"
 		command = ".screenshot auto"
 	elem 
 		name = "SHIFT+F2+REP"
 		command = ".screenshot"
+	elem 
+		name = "F3"
+		command = "say"
+	elem 
+		name = "F4"
+		command = "me"
 	elem 
 		name = "F5"
 		command = "Aghost"

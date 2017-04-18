@@ -20,7 +20,8 @@ var/list/admin_verbs_default = list(
 	/client/proc/cmd_admin_pm_context,	/*right-click adminPM interface*/
 	/client/proc/cmd_admin_pm_panel,		/*admin-pm list*/
 	/client/proc/stop_sounds,
-	/client/verb/checkAccount
+	/client/verb/checkAccount,
+	/client/verb/checkAllAccounts
 	)
 
 
